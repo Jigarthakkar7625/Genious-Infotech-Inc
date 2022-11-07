@@ -2552,10 +2552,17 @@ blockquote cite:before {
 }
 .full-width-header .rs-header.style2 .menu-area .logo-part img {
   transition: 0.4s;
-  max-height: 40px;
+  max-height: 150px;
 }
+.logo-part {
+    /*margin: 50px;*/
+    text-align: center;
+}
+/*.align-items-center{
+    padding:50px 0;
+}*/
 .full-width-header .rs-header.style2 .menu-area .logo-part .dark {
-  display: none;
+    display: none;
 }
 .full-width-header .rs-header.style2 .menu-area .logo-part .light {
   display: inherit;
@@ -10868,3 +10875,22 @@ body .search-modal .close:hover {
     transform: none;
   }
 }
+/*.full-width-header .rs-header.style2 .menu-area.menu-sticky.sticky .logo-part img {
+    max-height:100px;
+}
+.full-width-header .rs-header.style2 .menu-area.menu-sticky.sticky .align-items-center {
+    padding: 30px 0;
+}
+ul.rs-contact-info {
+    padding-top: 23px;
+}
+.full-width-header .rs-header .menu-area.sticky .logo-area a .sticky-logo {
+    max-height: 80px;
+}
+.full-width-header .rs-header .menu-area.sticky .logo-area {
+    top: 0px;
+    margin: 15px 0;
+}
+.full-width-header .rs-header .menu-area.sticky .rs-menu-area {
+    margin: 30px 0;
+}*/
