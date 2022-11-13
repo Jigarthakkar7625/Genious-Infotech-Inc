@@ -1,4 +1,4 @@
-@charset "utf-8";
+ @charset "utf-8";
 
 /**
 *
@@ -722,8 +722,12 @@
     }    
     .main-menu {
         width: 100%;
+        padding-bottom:18px;
     }
-    .full-width-header .rs-header.style4.modify1 .menu-area .logo-part img{
+    .full-width-header .rs-header .menu-area {
+        background-image:none;
+    }
+    .full-width-header .rs-header.style4.modify1 .menu-area .logo-part img {
         transition: 0.4s;
         -webkit-transition: 0.4s;
         max-height: 40px;
@@ -1183,6 +1187,16 @@
         padding-bottom: 40px;
         margin-top: -370px;
         position: relative;
+    }
+    .filter__head {
+        display: inline-block;
+        height: auto;
+    }
+    .rs-partner.style4.pt-70.technology-logo {
+        padding-top:0;
+    }
+    .filter__headitem {
+        margin: 30px 15px 0 15px;
     }
 }
 
@@ -1937,5 +1951,18 @@
     }
     .page-error .error-not-found .readon.learn-more {
         padding: 10px 25px;
+    }
+    .filter__headitem {
+        float:none;
+        text-align:center;
+    }
+    .full-width-header .rs-header.style2 .menu-area .logo-part img {
+        max-height: 100px;
+    }
+    .full-width-header .mobile-menu .rs-menu-toggle.secondary {
+        margin-top:10px;
+    }
+    .rs-feature .col-md-6.mt-20.pr-6.md-pb-20 {
+        padding-right:15px;
     }
 }
