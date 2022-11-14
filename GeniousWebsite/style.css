@@ -3736,10 +3736,13 @@ blockquote {
         }
 
     .full-width-header .mobile-menu .rs-menu-toggle {
-        color: #ffffff;
+
         float: right;
         padding-top: 10px;
     }
+.homepage .full-width-header .mobile-menu .rs-menu-toggle {
+    color: #ffffff;
+}
 
         .full-width-header .mobile-menu .rs-menu-toggle:hover {
             opacity: 0.8;
