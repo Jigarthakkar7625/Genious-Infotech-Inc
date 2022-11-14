@@ -3736,8 +3736,9 @@ blockquote {
         }
 
     .full-width-header .mobile-menu .rs-menu-toggle {
-        /*color: #ffffff;*/
+        color: #ffffff;
         float: right;
+        padding-top: 10px;
     }
 
         .full-width-header .mobile-menu .rs-menu-toggle:hover {
@@ -3805,7 +3806,7 @@ blockquote {
     }
 
         .full-width-header .right_menu_togle .canvas-logo img {
-            max-height: 36px;
+            max-height:90px;
         }
 
     .full-width-header .right_menu_togle .sidebarnav_menu li a {
@@ -13048,4 +13049,10 @@ ul.rs-contact-info {
 }
 .owl-stage-outer {
     margin-top: 50px;
+}
+.homepage .full-width-header .rs-header.style3 .menu-area .logo-part img {
+    max-height: 150px;
+}
+.homepage .full-width-header .rs-header.style3 .menu-area.sticky .logo-part a .sticky-logo {
+    max-height: 80px;
 }

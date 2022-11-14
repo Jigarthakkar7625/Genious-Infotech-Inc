@@ -472,6 +472,9 @@
     .rs-team.home14-team-style .team-top-section .slick-arrow.slick-next {
         right: 17.5%;
     }
+    .homepage .full-width-header .rs-header.style3 .menu-area .logo-part img {
+        max-height: 100px;
+    }
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
